@@ -1,0 +1,8 @@
+README.md
+setup.py
+webhook.egg-info/PKG-INFO
+webhook.egg-info/SOURCES.txt
+webhook.egg-info/dependency_links.txt
+webhook.egg-info/entry_points.txt
+webhook.egg-info/requires.txt
+webhook.egg-info/top_level.txt

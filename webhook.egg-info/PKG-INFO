@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: webhook
+Version: 1.0.0.dev1
+Summary: http server that can manage POST from Google Pay
+Home-page: https://github.com/XavierPougnard/Webhook_XP
+Author: Xavier Pougnard
+Author-email: xavier.pougnard@orange.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/pypa/sampleproject/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/pypa/sampleproject/
+Description: # 
+        This is the README file for the project.
+        
+        The file should use UTF-8 encoding and can be written using
+        [reStructuredText][rst] or [markdown][md use] with the appropriate [key set][md
+        use]. It will be used to generate the project webpage on PyPI and will be
+        displayed as the project homepage on common code-hosting services, and should be
+        written for that purpose.
+        
+        This project aims at producing an HTTP server working as a webhook for chatbots that want want to sollicit Google Pay.
+        This webhook will receive notifications from Google pay related to ongoing payment process.
+        
+        What's new :
+        12-04-2018 : Project initialization
+        
+        [packaging guide]: https://packaging.python.org
+        [distribution tutorial]: https://packaging.python.org/en/latest/distributing.html
+        [src]: https://github.com/XavierPougnard/Webhook_XP
+        [rst]: http://docutils.sourceforge.net/rst.html
+        [md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
+        [md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
+        
+Keywords: webhook googlepay
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev

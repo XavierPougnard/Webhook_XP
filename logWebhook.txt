@@ -1,0 +1,36 @@
+cache-control: no-cache
+Postman-Token: e6fb9185-5984-424e-b1db-760f1451af2e
+Content-Type: application/json
+Accept: application/json
+Accept-Encoding: *
+User-Agent: PostmanRuntime/6.4.1
+Host: 192.168.1.17:36330
+content-length: 715
+Connection: keep-alive
+
+
+POST / HTTP/1.1 ('192.168.1.17', 57589) /
+{
+    "provider": "rcs",
+    "type": "message",
+    "event": "postback",
+    "eventId": "170790918151597",
+    "messageId": "MsIgJo3-jtToaf=X-fHWW1Og",
+    "sendTime": "2017-11-11T10:37:07.367929Z",
+    "senderPhoneNumber": "33649490915",
+    "content": {
+        "type": "postback",
+        "text": "Back to te main menu",
+        "value": "BMM",
+        "messageId": "MsIgJo3-jtToaf=X-fHWW1Og"
+    },
+    "message": {
+        "senderPhoneNumber": "+33649490915",
+        "messageId": "MsIgJo3-jtToaf=X-fHWW1Og",
+        "sendTime": "2017-11-11T10:37:07.367929Z",
+        "suggestionResponse": {
+            "postbackData": "BMM",
+            "text": "Back to te main menu"
+        }
+    }
+}
